@@ -1,0 +1,17 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# Project specific artifacts
+# We do not want to commit the downloaded payload file
+payload.ps1
+
+# OS generated files
+.DS_Store
+Thumbs.db

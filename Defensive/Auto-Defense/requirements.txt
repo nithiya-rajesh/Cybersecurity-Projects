@@ -1,0 +1,9 @@
+# --- Runtime Dependencies ---
+# This project utilizes the Python Standard Library (json, logging, datetime).
+# No external pip packages are required to run the engine.
+
+# --- Development Dependencies ---
+# Recommended tools for code formatting and testing:
+black==23.9.1       # Code Formatter
+flake8==6.1.0       # Linter
+pytest==7.4.2       # Unit Testing

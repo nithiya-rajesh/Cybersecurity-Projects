@@ -1,0 +1,21 @@
+# --- Python Standard ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environments ---
+venv/
+.venv/
+env/
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+
+# --- Project Specific Artifacts ---
+# We ignore the database because it is generated at runtime.
+# Committing this would cause merge conflicts every time you run the tool.
+firewall_rules.db
+
+# --- Logs ---
+*.log

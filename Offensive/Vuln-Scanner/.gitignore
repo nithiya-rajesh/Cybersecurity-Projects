@@ -1,0 +1,6 @@
+```text
+    __pycache__/
+    scan_results.json
+    venv/
+    *.log
+    ```

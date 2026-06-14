@@ -1,0 +1,6 @@
+```text
+    .env
+    __pycache__/
+    siem_report.json
+    auth.log
+    ```

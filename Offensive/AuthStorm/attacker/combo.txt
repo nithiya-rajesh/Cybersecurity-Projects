@@ -1,0 +1,10 @@
+admin:123456
+admin:password
+admin:qwerty
+admin:football
+admin:dragon
+admin:master
+admin:password123
+root:toor
+user:user
+guest:guest

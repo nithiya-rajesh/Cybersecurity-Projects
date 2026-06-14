@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  # Service 1: The Vulnerable Server
+  target-server:
+    build: ./target
+    ports:
+      - "5000:5000"  # Map localhost:5000 to container:5000
+    volumes:
+      - shared-logs:/logs  # Mount the shared volume to /logs
+    environment:
+      - LOG_PATH=/logs/access.log  # Tell Python to write here
+    networks:
+      - auth-net
+
+  # Service 2: The SIEM (Defense)
+  defense-siem:
+    build: ./defense
+    volumes:
+      - shared-logs:/logs  # Mount the SAME volume (Read Access)
+    environment:
+      - LOG_PATH=/logs/access.log  # Tell Python to read here
+    depends_on:
+      - target-server
+    networks:
+      - auth-net
+
+# Define the shared storage
+volumes:
+  shared-logs:
+
+# Define the private network
+networks:
+  auth-net:

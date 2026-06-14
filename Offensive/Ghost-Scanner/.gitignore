@@ -1,0 +1,28 @@
+# --- Python Standard ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environments ---
+venv/
+.venv/
+env/
+.env
+
+# --- IDE Settings (VS Code, PyCharm) ---
+.vscode/
+.idea/
+*.swp
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+
+# --- Project Specific Output ---
+# We ignore these because we don't want to upload our scan results to GitHub
+*.json
+*.log
+scan_results.json
+
+# --- Documentation builds ---
+site/

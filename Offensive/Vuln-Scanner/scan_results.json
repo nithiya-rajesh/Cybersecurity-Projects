@@ -1,0 +1,12 @@
+[
+    {
+        "port": 22,
+        "service": "SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.13",
+        "vulnerability": "MEDIUM: Old SSH version. Recommend upgrade."
+    },
+    {
+        "port": 80,
+        "service": "HTTP/1.1 200 OK\r\nDate: Sun, 07 Dec 2025 13:30:45 GMT\r\nServer: Apache/2.4.7 (Ubuntu)\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Type: text/html",
+        "vulnerability": "CRITICAL: Remote Code Execution (CVE-2021-42013)."
+    }
+]

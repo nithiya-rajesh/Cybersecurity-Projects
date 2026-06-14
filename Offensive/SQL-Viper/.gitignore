@@ -1,0 +1,25 @@
+# --- Python Basics ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environments ---
+# Based on your screenshot, you use .venv
+.venv/
+venv/
+env/
+ENV/
+
+# --- IDE Settings ---
+# You are using VS Code
+.vscode/
+.idea/
+
+# --- OS Generated Files ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- Logs & Databases ---
+*.log
+*.sqlite

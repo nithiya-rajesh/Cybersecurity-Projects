@@ -1,0 +1,65 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+env.bak/
+venv.bak/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+.coverage
+*.cover
+coverage.xml
+*.log
+nosetests.xml
+test-results/
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Local configs / secrets
+*.env
+*.ini
+*.cfg
+*.json
+
+# Logs
+*.log
+
+# Net-Sentry specific
+# (Add any temporary scan outputs or files you don’t want tracked)
+scan_results.txt
+output/

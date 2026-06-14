@@ -1,0 +1,5 @@
+# No external dependencies required.
+# This project utilizes Python's standard libraries:
+# - socket
+# - subprocess
+# - os

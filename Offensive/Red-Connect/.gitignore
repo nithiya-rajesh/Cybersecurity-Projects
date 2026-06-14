@@ -1,0 +1,16 @@
+# Python internals
+__pycache__/
+*.pyc
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE settings (Optional but good practice)
+.vscode/
+.idea/

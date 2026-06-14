@@ -1,0 +1,8 @@
+Oct 26 10:01:03 ubuntu-server sshd[2412]: Accepted password for useradmin from 192.168.1.105 port 51342 ssh2
+Oct 26 10:14:11 ubuntu-server sshd[3122]: Failed password for invalid user fakeuser from 203.0.113.55 port 48982 ssh2
+Oct 26 10:14:15 ubuntu-server sshd[3122]: Failed password for invalid user guest from 203.0.113.55 port 48982 ssh2
+Oct 26 10:14:19 ubuntu-server sshd[3122]: Failed password for root from 203.0.113.55 port 48982 ssh2
+Oct 26 10:14:23 ubuntu-server sshd[3122]: Connection closed by authenticating user root 203.0.113.55 port 48982 [preauth]
+Oct 26 10:15:01 ubuntu-server CRON[3205]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 10:15:01 ubuntu-server CRON[3205]: pam_unix(cron:session): session closed for user root
+Oct 26 10:17:42 ubuntu-server sshd[3451]: Failed password for useradmin from 10.0.0.10 port 59874 ssh2

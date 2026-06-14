@@ -1,0 +1,9 @@
+# --- Core Dependencies ---
+# Ghost-Scanner uses Python Standard Library (socket, threading, json, argparse).
+# No external runtime dependencies are required.
+
+# --- Development & Testing Tools ---
+# Install these to maintain code quality:
+black==23.9.1       # Code Formatter (Keep your code pretty)
+flake8==6.1.0       # Linter (Finds syntax errors)
+pytest==7.4.2       # Testing Framework (For future unit tests)
